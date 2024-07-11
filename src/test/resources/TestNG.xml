@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WeekendAPIFrameworkTests">
+	<listeners>
+		<listener class="com.restfulbooker.apitest.listeners.testStatusListener" />
+		<listener
+			class="com.restfulbooker.apitest.listeners.AnnotationTransformer" />
+	</listeners>
+	<test name="LoginTest">
+		<classes>
+			<class name="com.restfulbooker.apitest.Scenarios.LoginTest" />
+		</classes>
+	</test>
+</suite>
